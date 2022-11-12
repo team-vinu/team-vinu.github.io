@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: TeamVinuのブログ
+title_separator: "|"
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://team-vinu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -36,6 +37,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: ""
@@ -50,7 +52,7 @@ collections:
   Shenf:
     output: true
 
-# FIXME: This won't work
+search: true
 lunr:
   search_within_pages: true
 
