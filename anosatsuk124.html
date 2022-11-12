@@ -3,14 +3,15 @@ permalink: /anosatsuk124/
 layout: archive
 collection: anosatsuk124
 author: anosatsuk124
+classes: wide
 ---
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h3 class="archive__subtitle">
+  {{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}
+</h3>
 
-{% for post in site.posts %}
-  {% if post.author == "anosatsuk124" %}
-    <h2>
-      <a href="{{ post.url }}"> {{ post.title }} </a>
-    </h2>
-  {% endif %}
-{% endfor %}
+{% for post in site.posts %} {% if post.author == "anosatsuk124" %}
+<h2>
+  <a href="{{ post.url }}"> {{ post.title }} </a>
+</h2>
+{% endif %} {% endfor %}
