@@ -1,9 +1,9 @@
 main:
+  - title: "About"
+    url: /about/
+  - title: "タグ一覧"
+    url: /tags/
   - title: "ゐてるま"
     url: /anosatsuk124/
   - title: "しぇんふ"
     url: /Shenf/
-  - title: "タグ一覧"
-    url: /tags/
-  - title: "About"
-    url: /about/
