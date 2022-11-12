@@ -35,6 +35,19 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+collections:
+  anosatsuk124:
+    output: true
+  Shenf:
+    output: true
 
 # FIXME: This won't work
 lunr:

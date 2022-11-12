@@ -1,0 +1,16 @@
+---
+permalink: /Shenf/
+layout: archive
+collection: Shenf
+author: Shenf
+---
+
+<h2 id="{{ label | slugify }}" class="archive__subtitle"> 最近の投稿 </h2>
+
+{% for post in site.posts %}
+  {% if post.author == "Shenf" %}
+    <h2>
+      <a href="{{ post.url }}"> {{ post.title }} </a>
+    </h2>
+  {% endif %}
+{% endfor %}
