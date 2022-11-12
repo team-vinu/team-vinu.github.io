@@ -1,0 +1,14 @@
+Shenf:
+  name: "Shenf"
+  bio: ""
+  avatar: ""
+  links:
+
+anosatsuk124:
+  name: "ゐてるま (viterum)"
+  bio: ""
+  avatar: "/assets/images/viterum_avatar.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "anosatsuk124@gmail.com"
