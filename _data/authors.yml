@@ -5,10 +5,15 @@ Shenf:
   links:
 
 anosatsuk124:
-  name: "ゐてるま (viterum)"
-  bio: ""
+  name: "Satsuki Akiba (ゐてるま)"
+  bio: >-
+    趣味は低レイヤのシステムプログラミングと分析よりの哲学全般です。
+    最近はGodotとC#でゲーム開発をしています。好きな言語はRustです。
   avatar: "/assets/images/avatars/viterum_avatar.jpg"
   links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/anosatsuk124"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:anosatsuk124@gmail.com"
