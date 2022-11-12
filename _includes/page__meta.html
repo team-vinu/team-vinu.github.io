@@ -1,6 +1,17 @@
 {% assign document = post | default: page %}
-{% if document.read_time or document.show_date %}
+{% if document.read_time or document.show_date or document.tags %}
   <p class="page__meta">
+    {% if document.tags %}
+      {% for tag in document.tags %}
+        <span class="page__meta-date">
+          <i class="fas fa-tags"></i>
+          <a href="/tags/#{{ tag }}" class="u-url" itemprop="url">{{ tag }}</a>
+        </span>
+      {% endfor %}
+    {% endif %}
+
+    {% if document.show_date and document.tags %}<span class="page__meta-sep"></span>{% endif %}
+
     {% if document.show_date and document.date %}
       {% assign date = document.date %}
       <span class="page__meta-date">
