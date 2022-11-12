@@ -23,6 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://team-vinu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+# FIXME: This won't work
 lunr:
   search_within_pages: true
 
