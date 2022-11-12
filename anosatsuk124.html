@@ -5,7 +5,7 @@ collection: anosatsuk124
 author: anosatsuk124
 ---
 
-<h2 id="{{ label | slugify }}" class="archive__subtitle"> 最近の投稿 </h2>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% for post in site.posts %}
   {% if post.author == "anosatsuk124" %}
