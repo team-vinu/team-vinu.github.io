@@ -58,6 +58,11 @@ search: true
 lunr:
   search_within_pages: true
 
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "team-vinu"
+
 analytics:
   provider: "google-gtag"
   google:
