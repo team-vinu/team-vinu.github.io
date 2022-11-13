@@ -22,6 +22,7 @@ title: TeamVinuのブログ
 title_separator: "|"
 description: >- # this means to ignore newlines until "baseurl:"
   Team Vinu（ゐてるま・もなど）によるブログ
+  技術系の話を中心に、Godot4.0でのゲーム開発の様子やTipsなども発信する予定です。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://team-vinu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 locale: ja
