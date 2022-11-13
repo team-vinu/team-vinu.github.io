@@ -21,7 +21,7 @@
 title: Vinuブログ
 title_separator: "|"
 description: >- # this means to ignore newlines until "baseurl:"
-Team Vinu（ゐてるま・もなど）によるブログ
+  Team Vinu（ゐてるま・もなど）によるブログ
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://team-vinu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 locale: ja
