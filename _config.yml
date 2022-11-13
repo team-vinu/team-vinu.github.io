@@ -50,7 +50,7 @@ defaults:
 collections:
   anosatsuk124:
     output: true
-  Shenf:
+  monado:
     output: true
 
 search: true
