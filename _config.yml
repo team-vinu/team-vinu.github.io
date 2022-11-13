@@ -27,7 +27,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://team-vinu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 locale: ja
 timezone: Asia/Tokyo
-repository: team-vinu/team-vinu.github.io
 
 defaults:
   # _posts
@@ -61,14 +60,9 @@ lunr:
   search_within_pages: true
 
 comments:
-  provider: "giscus"
-  giscus:
-    repo_id: R_kgDOIa12qg # Shown during giscus setup at https://giscus.app
-    category_name: Comment # Full text name of the category
-    category_id: DIC_kwDOIa12qs4CShkT # Shown during giscus setup at https://giscus.app
-    discussion_term: pathname # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled: 1 # '1' for enabled (default), '0' for disabled
-    theme: light # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  provider: "disqus"
+  disqus:
+    shortname: "team-vinu"
 
 analytics:
   provider: "google-gtag"
